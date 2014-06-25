@@ -267,6 +267,53 @@ border-right: 6px solid rgb(80,80,80);
 border-top: 6px solid rgb(80,80,80);
 }
 
+/*start*/
+.start{
+    margin-top: -40px;
+}
+.start .direction-m .flag{
+    width: 230px;
+    height: 230px;
+    padding: 40px;
+    background: #f6ba52;
+    border:10px solid #C27D02;
+    box-shadow: 10px 7px 0px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 10px 7px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 10px 7px 0px rgba(0,0,0,0.15);
+}
+.start h1{
+    font-family: 'Signika', sans-serif;
+    font-size: 2.5em;
+    margin: .27em 0;
+}
+.start h2{
+    font-family: 'Signika', sans-serif;
+    font-size: 1em;
+    margin: 0;
+}
+
+/*Middle*/
+.direction-m {
+width: 100%;
+text-align: center;
+position: relative;
+z-index: 5;
+}
+.direction-m .flag-wrapper{
+    display:table;
+    margin: 0 auto;
+}
+.direction-m .flag{
+width: 140px;
+height: 140px;
+padding: 10px;
+border:6px solid rgb(80,80,80);
+text-align: center;
+vertical-align: middle;
+border-radius:100%;
+display: table-cell;
+}
+
 /* ================ Timeline Media Queries ================ */
 
 @media screen and (max-width: 660px) {
