@@ -318,10 +318,15 @@ display: table-cell;
 .ending{
 margin-top: 100px;
 }
+.ending .direction-l .flag:before{
+right:-33px;
+}
+.ending .direction-r .flag:before{
+left:-33px;
+}
 .ending .flag:before{
 width: 6px;
 height: 100px;
-left:-33px;
 border:0;
 border-radius:0;
 margin-bottom: 250px;
